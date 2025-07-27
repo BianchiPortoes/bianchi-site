@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bianchi Portões Seccionais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">BIANCHI</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#linha">Linha Bianchi</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#abianchi">A Bianchi</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Excelência em Portões Seccionais</h1>
+    <p>A essência do design e segurança europeia, para compor obras únicas.</p>
+    <a href="#contato" class="btn">Peça um Orçamento</a>
+  </section>
+
+  <section id="linha" class="content">
+    <h2>Linha Bianchi</h2>
+    <ul>
+      <li><strong>Residenciais:</strong> acabamento refinado, silencioso e com vedação total.</li>
+      <li><strong>Comerciais:</strong> alta resistência, abertura vertical e isolamento térmico.</li>
+      <li><strong>Acessórios:</strong> motores, sensores e automação completa.</li>
+    </ul>
+  </section>
+
+  <section id="portfolio" class="content">
+    <h2>Portfólio</h2>
+    <p>Em breve, galeria de projetos realizados pela Bianchi. Portões seccionais aplicados em obras de alto padrão e personalizadas.</p>
+  </section>
+
+  <section id="abianchi" class="content">
+    <h2>A Bianchi</h2>
+    <p>
+      Fundada com o propósito de elevar o padrão dos fechamentos residenciais e industriais, a <strong>Bianchi</strong> nasceu da união entre engenharia, design e uma busca incansável por excelência.
+    </p>
+    <p>
+      Especializada em <strong>portões seccionais automatizados</strong>, a empresa se consolidou como uma referência no setor por entregar soluções que unem <strong>tecnologia, acabamento superior e segurança de alto desempenho</strong>.
+    </p>
+    <p>
+      Desde os primeiros projetos, a Bianchi sempre acreditou que um portão é mais do que um acesso — é parte fundamental da estética, proteção e identidade de uma obra.
+    </p>
+    <p>
+      Com raízes sólidas, foco no cliente e atuação em todo o território nacional, a Bianchi desenvolve portões sob medida para <strong>obras únicas</strong>, colaborando diretamente com <strong>construtoras, arquitetos e clientes exigentes</strong>, que valorizam design moderno e execução impecável.
+    </p>
+    <p>
+      O compromisso da marca vai além da entrega técnica: buscamos sempre superar expectativas com <strong>atendimento consultivo, inovação constante e atenção aos mínimos detalhes</strong>.
+    </p>
+    <p>
+      Hoje, a Bianchi é sinônimo de confiança, precisão e sofisticação — transformando projetos em referências.
+    </p>
+  </section>
+
+  <section id="contato" class="content contato">
+    <h2>Contato</h2>
+    <p>📍 Atendemos em todo o Brasil</p>
+    <p>📞 (XX) XXXXX-XXXX</p> <!-- Altere este número quando quiser -->
+    <p>📲 <a href="https://wa.me/55XXXXXXXXXXX" target="_blank">Fale pelo WhatsApp</a></p>
+    <p>📧 contato@bianchiportoes.com.br</p>
+    <p>📸 Instagram: @bianchiportoes</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bianchi Portões Seccionais. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
