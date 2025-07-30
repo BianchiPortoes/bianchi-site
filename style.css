@@ -1,92 +1,171 @@
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #111;
-  color: #f0f0f0;
-  line-height: 1.6;
-}
+[00:13, 30/07/2025] Euro Portões: <!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bianchi Portões Seccionais</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #000;
+      color: #e9e2d0;
+    }
+    header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 80px;
+      z-index: 2;
+    }
+    .logo {
+      font-size: 32px;
+      font-weight: bold;
+      line-height: 1;
+    }
+    .logo small {
+      display: block;
+      font-size: 14px;
+      letter-spacing: 1px;
+      margin-top: 4px;
+    }
+    nav a {
+      color: #e9e2d0;
+      text-decoration: none;
+      margin-left: 40px;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #fff2cc;
+    }
+    .hero {
+      position: relative;
+      height: 100vh;
+      background: url('images/hero-portao.jpg') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      color: #f5f1e6;
+      padding: 0 20px;
+    }
+    .hero-content h1 {
+      font-size: 52px;
+      margin-bottom: 20px;
+    }
+    .hero-content p {
+      font-size: 22px;
+      color: #d8d0be;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        padding: 20px 40px;
+      }
+      nav {
+        margin-top: 20px;
+      }
+      nav a {
+        margin-left: 20px;
+        font-size: 14px;
+      }
+      .hero-content h1 {
+        font-size: 32px;
+      }
+      .hero-content p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      BIANCHI
+      <small>PORTÕES SECCIONAIS</small>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#linha">Linha Bianchi</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#sobre">A Bianchi</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Excelência em<br>Portões Seccionais</h1>
+      <p>A essência do design e segurança europeia, para compor obras únicas</p>
+    </div>
+  </section>
+</body>
+</html>
+[09:49, 30/07/2025] Euro Portões: /* style.css */
 
-header {
-  background: #000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
+{ margin: 0; padding: 0; box-sizing: border-box; }
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #f1c40f;
-}
 
-nav a {
-  color: #fff;
-  margin-left: 20px;
-  text-decoration: none;
-}
+body { font-family: 'Georgia', serif; background-color: #000; color: #e9e2d0; }
 
-nav a:hover {
-  color: #f1c40f;
-}
+header { display: flex; justify-content: space-between; align-items: center; padding: 40px 80px; background-color: #000; }
 
-.hero {
-  text-align: center;
-  padding: 80px 20px;
-  background: url('https://images.unsplash.com/photo-1601628728084-b6ff99320f3e?fit=crop&w=1920&q=80') no-repeat center center/cover;
-  color: #fff;
-}
+.logo h1 { font-size: 32px; color: #e9e2d0; letter-spacing: 2px; }
 
-.hero h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
-}
+.logo p { font-size: 14px; color: #e9e2d0; letter-spacing: 1px; }
 
-.hero p {
-  font-size: 20px;
-  margin-bottom: 30px;
-}
+nav ul { list-style: none; display: flex; gap: 30px; }
 
-.btn {
-  background: #f1c40f;
-  color: #000;
-  padding: 12px 25px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-}
+nav ul li a { text-decoration: none; color: #e9e2d0; font-size: 16px; transition: color 0.3s; }
 
-.content {
-  padding: 60px 40px;
-  max-width: 1000px;
-  margin: auto;
-}
+nav ul li a:hover { color: #fff2cc; }
 
-.content h2 {
-  color: #f1c40f;
-  margin-bottom: 20px;
-}
+.hero { background: url('images/hero-portao.jpg') center/cover no-repeat; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; position: relative; }
 
-.content ul {
-  list-style: none;
-  padding-left: 0;
-}
+.hero::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6); }
 
-.content li {
-  margin-bottom: 10px;
-}
+.hero-content { position: relative; color: #f5f1e6; z-index: 1; padding: 0 20px; }
 
-.contato a {
-  color: #f1c40f;
-  text-decoration: none;
-}
+.hero-content h2 { font-size: 52px; margin-bottom: 20px; }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #000;
-  color: #999;
-}
+.hero-content p { font-size: 22px; color: #d8d0be; max-width: 700px; margin: 0 auto; }
+
+.section-title { text-align: center; font-size: 36px; margin: 80px 0 40px; color: #f0eada; }
+
+.linha-bianchi { padding: 0 80px 100px; background-color: #000; }
+
+.linha-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; }
+
+.linha-item { background-color: #111; padding: 20px; border-radius: 12px; box-shadow: 0 0 15px rgba(255, 255, 255, 0.05); transition: transform 0.3s ease; }
+
+.linha-item:hover { transform: translateY(-5px); }
+
+.linha-item img { width: 100%; border-radius: 10px; margin-bottom: 15px; }
+
+.linha-item h3 { font-size: 20px; color: #f0eada; margin-bottom: 10px; }
+
+.linha-item p { font-size: 15px; color: #d8d0be; line-height: 1.6; }
+
+@media (max-width: 768px) { header { flex-direction: column; padding: 20px; } nav ul { flex-direction: column; gap: 10px; margin-top: 20px; } .hero-content h2 { font-size: 32px; } .hero-content p { font-size: 16px; } .linha-bianchi { padding: 0 20px 80px; } }
