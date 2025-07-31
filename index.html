@@ -1,77 +1,95 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>BIANCHI | Portões Seccionais</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bianchi Portões Seccionais</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Header -->
   <header class="header">
     <div class="logo">
       <h1>BIANCHI</h1>
-      <p>PORTÕES SECCIONAIS</p>
+      <p class="subtitle">Portões Seccionais</p>
     </div>
     <nav class="nav">
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#linha">Linha Bianchi</a></li>
         <li><a href="#portfolio">Portfólio</a></li>
-        <li><a href="#sobre">A Bianchi</a></li>
+        <li><a href="#a-bianchi">A Bianchi</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <h2>Excelência em<br>Portões Seccionais</h2>
-      <p>A essência do designe e segurança europeia, para compor obras únicas</p>
-      <a href="#contato" class="btn">Solicite seu orçamento</a>
+  <section id="home" class="hero">
+    <h2>Excelência em Portões Seccionais</h2>
+    <p>A essência do design e segurança europeia, para compor obras únicas.</p>
+    <a href="#contato" class="btn">Solicite seu orçamento</a>
+  </section>
+
+  <section id="linha" class="linha">
+    <h2>Linha Bianchi</h2>
+    <div class="produtos">
+      <div class="produto">
+        <img src="residencial.jpg" alt="Portão Residencial" />
+        <h3>Portões Residenciais</h3>
+        <p>Design refinado, abertura silenciosa, melhor aproveitamento de vão livre, segurança e automação avançada.</p>
+      </div>
+      <div class="produto">
+        <img src="industrial.jpg" alt="Portão Industrial" />
+        <h3>Portões Industriais</h3>
+        <p>Isolamento térmico e acústico, sensores anti esmagamento, abertura total do vão e máxima segurança.</p>
+      </div>
+      <div class="produto">
+        <img src="personalizados.jpg" alt="Portões Personalizados" />
+        <h3>Portões Personalizados</h3>
+        <p>Em alumínio com vidro, grade ou cores diferenciadas — soluções exclusivas para projetos únicos.</p>
+      </div>
+      <div class="produto">
+        <img src="automacao.jpg" alt="Automação" />
+        <h3>Automação</h3>
+        <p>Motores, controles remotos, acesso por tag e senha, aplicativo, sensor anti esmagamento e nobreak.</p>
+      </div>
     </div>
   </section>
 
-  <!-- Linha Bianchi -->
-  <section id="linha" class="section">
-    <h3 class="section-title">Linha Bianchi</h3>
-    <p class="section-subtitle">Conheça nossas linhas de portões seccionais residenciais e industriais.</p>
-    <!-- Adicione aqui os blocos das linhas com imagens -->
+  <section id="a-bianchi" class="a-bianchi">
+    <h2>A Bianchi</h2>
+    <p>
+      Fundada com o propósito de elevar o padrão dos fechamentos residenciais e industriais, a Bianchi nasceu da união entre engenharia, design e uma busca incansável por excelência.<br><br>
+
+      Especializada em portões seccionais automatizados, a empresa se consolidou como uma referência no setor por entregar soluções que unem tecnologia, acabamento superior e segurança de alto desempenho.<br><br>
+
+      Desde os primeiros projetos, a Bianchi sempre acreditou que um portão é mais do que um acesso — é parte fundamental da estética, proteção e identidade de uma obra.<br><br>
+
+      Com raízes sólidas, foco no cliente e atuação em todo o território nacional, a Bianchi desenvolve portões sob medida para obras únicas, colaborando diretamente com construtoras, arquitetos e clientes exigentes, que valorizam design moderno e execução impecável.<br><br>
+
+      O compromisso da marca vai além da entrega técnica: buscamos sempre superar expectativas com atendimento consultivo, inovação constante e atenção aos mínimos detalhes.<br><br>
+
+      Hoje, a Bianchi é sinônimo de confiança, precisão e sofisticação — transformando projetos em referências.
+    </p>
   </section>
 
-  <!-- Portfólio -->
-  <section id="portfolio" class="section dark">
-    <h3 class="section-title">Portfólio</h3>
-    <p class="section-subtitle">Veja algumas obras exclusivas com o toque de excelência Bianchi.</p>
-    <!-- Galeria de imagens futura -->
-  </section>
-
-  <!-- A Bianchi -->
-  <section id="sobre" class="section">
-    <h3 class="section-title">A Bianchi</h3>
-    <p class="section-subtitle">Unimos tecnologia, segurança e sofisticação em cada projeto.</p>
-    <!-- Conteúdo institucional -->
-  </section>
-
-  <!-- Contato -->
-  <section id="contato" class="section dark">
-    <h3 class="section-title">Solicite um Orçamento</h3>
-    <form action="https://formsubmit.co/bianchiportoesautomatizados@gmail.com" method="POST" class="form">
-      <input type="text" name="nome" placeholder="Nome completo" required />
-      <input type="email" name="email" placeholder="Seu e-mail" required />
-      <input type="tel" name="telefone" placeholder="Número de contato" required />
-      <input type="text" name="modelo" placeholder="Linha de portão desejada" required />
+  <section id="contato" class="contato">
+    <h2>Contato</h2>
+    <p>Joinville, SC<br>Atendemos todo território nacional<br>Email: <a href="mailto:contato@bianchiportoes.com.br">contato@bianchiportoes.com.br</a></p>
+    <form action="https://formsubmit.co/bianchiportoesautomatizados@gmail.com" method="POST">
+      <input type="text" name="nome" placeholder="Nome" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="tel" name="telefone" placeholder="Telefone" required />
+      <select name="linha">
+        <option value="residencial">Portão Residencial</option>
+        <option value="industrial">Portão Industrial</option>
+        <option value="personalizado">Portão Personalizado</option>
+        <option value="automacao">Automação</option>
+      </select>
       <input type="text" name="cor" placeholder="Cor desejada" required />
       <input type="text" name="largura" placeholder="Largura (em metros)" required />
       <input type="text" name="altura" placeholder="Altura (em metros)" required />
-      <button type="submit" class="btn">Enviar orçamento</button>
+      <button type="submit">Enviar Orçamento</button>
     </form>
-    <p class="contact-info">Email: contato@bianchiportoes.com.br<br>Joinville - SC | Atendemos todo o Brasil</p>
   </section>
-
-  <footer class="footer">
-    <p>© 2025 BIANCHI Portões Seccionais. Todos os direitos reservados.</p>
-  </footer>
 </body>
 </html>
