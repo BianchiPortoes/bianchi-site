@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!DOCTYPE html><html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,8 +6,6 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <!-- HEADER -->
   <header>
     <div class="logo">
       <h1>BIANCHI</h1>
@@ -16,82 +13,92 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#linha">Linha Bianchi</a></li>
         <li><a href="#portfolio">Portfólio</a></li>
-        <li><a href="#a-bianchi">A Bianchi</a></li>
+        <li><a href="#sobre">A Bianchi</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
-  </header>
-
-  <!-- HERO -->
-  <section class="hero">
+  </header>  <section id="home" class="hero">
     <h2>Excelência em Portões Seccionais</h2>
     <p>A essência do design e segurança europeia, para compor obras únicas.</p>
-  </section>
+    <a href="#contato" class="btn-orcamento">Solicite um Orçamento</a>
+  </section>  <section id="linha" class="produtos">
+    <h3>Linha Bianchi</h3><div class="produto">
+  <img src="images/residencial.jpg" alt="Portão Residencial" />
+  <div>
+    <h4>Portões Residenciais</h4>
+    <p>Com design moderno, abertura silenciosa, segurança e melhor aproveitamento do vão livre, os portões residenciais Bianchi oferecem tecnologia e sofisticação para sua fachada.</p>
+  </div>
+</div>
 
-  <!-- LINHA BIANCHI -->
-  <section class="linha" id="linha">
-    <h2>Linha Bianchi</h2>
+<div class="produto">
+  <img src="images/industrial.jpg" alt="Portão Industrial" />
+  <div>
+    <h4>Portões Industriais</h4>
+    <p>Com isolamento térmico e acústico, sensores anti-esmagamento e abertura total do vão, os portões industriais Bianchi garantem segurança e eficiência para grandes operações.</p>
+  </div>
+</div>
 
-    <div class="linha-item">
-      <img src="images/portao-residencial.jpg" alt="Portão Residencial" />
-      <div>
-        <h3>Portões Residenciais</h3>
-        <p>Soluções com design refinado, abertura silenciosa, segurança avançada e automação de última geração. Ideal para quem exige o melhor aproveitamento de vão livre com elegância superior.</p>
-      </div>
-    </div>
+<div class="produto">
+  <img src="images/personalizados.jpg" alt="Portões Personalizados" />
+  <div>
+    <h4>Portões Personalizados</h4>
+    <p>Projetados em alumínio com vidro, grades e ampla variedade de cores, os portões personalizados Bianchi oferecem a solução ideal para projetos exclusivos e de alto padrão.</p>
+  </div>
+</div>
 
-    <div class="linha-item">
-      <img src="images/portao-industrial.jpg" alt="Portão Industrial" />
-      <div>
-        <h3>Portões Industriais</h3>
-        <p>Projetados para máxima segurança e desempenho, oferecem isolamento térmico e acústico, abertura total do vão, sensores anti esmagamento e robustez incomparável.</p>
-      </div>
-    </div>
+<div class="produto">
+  <img src="images/automacao.jpg" alt="Automatização" />
+  <div>
+    <h4>Automatização</h4>
+    <p>Tecnologia de ponta com motores silenciosos, controles remotos, acesso por tag e senha, aplicativo, sensor anti-esmagamento e nobreak. A praticidade que você precisa com segurança.</p>
+  </div>
+</div>
 
-    <div class="linha-item">
-      <img src="images/portao-personalizado.jpg" alt="Portão Personalizado" />
-      <div>
-        <h3>Portões Personalizados</h3>
-        <p>Portões em estrutura de alumínio com vidro, grades e ampla paleta de cores diferenciadas — ideais para compor projetos arquitetônicos únicos com personalidade.</p>
-      </div>
-    </div>
+  </section>  <section id="sobre" class="sobre">
+    <h3>A Bianchi</h3>
+    <p>
+      Fundada com o propósito de elevar o padrão dos fechamentos residenciais e industriais, a Bianchi nasceu da união entre engenharia, design e uma busca incansável por excelência.
+    </p>
+    <p>
+      Especializada em portões seccionais automatizados, a empresa se consolidou como referência no setor por entregar soluções que unem tecnologia, acabamento superior e segurança de alto desempenho.
+    </p>
+    <p>
+      Com raízes sólidas, foco no cliente e atuação nacional, a Bianchi desenvolve portões para obras únicas, colaborando com construtoras, arquitetos e clientes exigentes.
+    </p>
+    <p>
+      O compromisso vai além da parte técnica: buscamos sempre superar expectativas com atendimento consultivo, inovação constante e atenção aos detalhes.
+    </p>
+    <p>
+      Hoje, a Bianchi é sinônimo de confiança, precisão e sofisticação — transformando projetos em referências.
+    </p>
+  </section>  <section id="contato" class="contato">
+    <h3>Contato</h3>
+    <p>Email: contato@bianchiportoes.com.br</p>
+    <p>Localização: Joinville - SC</p>
+    <p>Atendemos todo o território nacional</p><form action="https://formsubmit.co/contato@bianchiportoes.com.br" method="POST">
+  <input type="text" name="nome" placeholder="Seu nome" required />
+  <input type="email" name="email" placeholder="Seu e-mail" required />
+  <input type="tel" name="telefone" placeholder="Seu telefone" required />
+  <select name="linha" required>
+    <option value="">Selecione a linha de portão</option>
+    <option value="residencial">Residencial</option>
+    <option value="industrial">Industrial</option>
+    <option value="personalizado">Personalizado</option>
+    <option value="automacao">Automatização</option>
+  </select>
+  <input type="text" name="cor" placeholder="Cor desejada" required />
+  <input type="text" name="largura" placeholder="Largura em metros" required />
+  <input type="text" name="altura" placeholder="Altura em metros" required />
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://bianchiportoes.com.br/obrigado.html">
+  <button type="submit">Solicitar Orçamento</button>
+</form>
 
-    <div class="linha-item">
-      <img src="images/automacao.jpg" alt="Automação" />
-      <div>
-        <h3>Automação</h3>
-        <p>Motores silenciosos 24V, controle digital, aplicativo, acesso por senha ou tag, sensor anti esmagamento e nobreak: tecnologia completa para sua comodidade e proteção.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- A BIANCHI -->
-  <section class="a-bianchi" id="a-bianchi">
-    <div class="container">
-      <h2 class="section-title">A Bianchi</h2>
-      <p class="about-text">
-        Fundada com o propósito de elevar o padrão dos fechamentos residenciais e industriais, a Bianchi nasceu da união entre engenharia, design e uma busca incansável por excelência.
-      </p>
-      <p class="about-text">
-        Especializada em portões seccionais automatizados, a empresa se consolidou como uma referência no setor por entregar soluções que unem tecnologia, acabamento superior e segurança de alto desempenho.
-      </p>
-      <p class="about-text">
-        Desde os primeiros projetos, a Bianchi sempre acreditou que um portão é mais do que um acesso — é parte fundamental da estética, proteção e identidade de uma obra.
-      </p>
-      <p class="about-text">
-        Com raízes sólidas, foco no cliente e atuação em todo o território nacional, a Bianchi desenvolve portões sob medida para obras únicas, colaborando diretamente com construtoras, arquitetos e clientes exigentes, que valorizam design moderno e execução impecável.
-      </p>
-      <p class="about-text">
-        O compromisso da marca vai além da entrega técnica: buscamos sempre superar expectativas com atendimento consultivo, inovação constante e atenção aos mínimos detalhes.
-      </p>
-      <p class="about-text highlight">
-        Hoje, a Bianchi é sinônimo de confiança, precisão e sofisticação — transformando projetos em referências.
-      </p>
-    </div>
-  </section>
-
+  </section>  <footer>
+    <p>&copy; 2025 Bianchi Portões Seccionais. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
